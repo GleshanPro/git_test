@@ -5,7 +5,7 @@ int main() {
     int k;
     scanf("%d", &k);
     int result = product(k, k);
-    printf("Square of your number: %d", k);
+    printf("Square of your number: %d", result);
     return 0;
 }
 
