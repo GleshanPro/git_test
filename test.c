@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int main() {
+void main() {
     printf("Hello, dear world!");
     int k;
     scanf("%d", &k);
     int result = product(k, k);
     printf("Square of your number: %d", result);
-    return 0;
+    return;
 }
 
 int sum(int a, int b) {
