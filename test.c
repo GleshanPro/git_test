@@ -2,6 +2,10 @@
 
 int main() {
     printf("Hello, dear world!");
+    int n;
+    scanf("%d", &n);
+    int result = product(n, n);
+    printf("Square of your number: %d", n);
     return 0;
 }
 
